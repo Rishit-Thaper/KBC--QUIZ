@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="CSS Files/style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Prompt&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz | Kaun Banega Crorepati</title>
+</head>
+<body>
+    <div class="questions" id="quiz">
+            <h1 id="ques">Questions Here</h1>
+        <ul>
+            <li>
+                <input type="radio" name="answer" id="a" class="answer">
+                <label for="a" id="a_text">Answer</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="b" class="answer">
+                <label for="b" id="b_text">Answer</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="c" class="answer">
+                <label for="c" id="c_text">Answer</label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="d" class="answer">
+                <label for="d" id="d_text">Answer</label>
+            </li>
+        </ul>
+        <p id="audio">audio here</p>
+        <div class="quizfoot">
+            <button id="submit">Submit</button>
+            <h2 id="score">Score: <span id="score1">0</span>/100</h2>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

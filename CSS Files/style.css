@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(90deg, #ad5389 0%, #3c1053 100%);
+}
+#head1{
+    font-size: 5em;
+    text-align: center;
+    color: #fdba12;
+    font-family: Prompt;
+}
+.entry{
+    margin: 15%;
+    align-items: center;
+    text-align: center;
+}
+#button{
+    margin: 5%;
+    width: 25%;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 20px;
+    border: 0px;
+    background-color:#fdb500 ;
+    color: #3c1053;
+    transition: 0.5s;
+}
+#button:hover{
+    background-color: #3c1053;
+    color: #fdb500;
+}

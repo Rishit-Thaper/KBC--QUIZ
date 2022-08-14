@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(90deg, #ad5389 0%, #3c1053 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: Prompt;
+}
+.questions{
+    margin: 5%;
+    background-color: rgba(0, 0, 0, 0.23);
+    padding: 5%;
+    width: 70%;
+    align-items: center;
+    border-radius: 20px;
+}
+.quizfoot{
+    display: flex;
+    justify-content: space-around;
+}
+#score{
+    font-size: 3rem;
+    color: azure;
+}
+#ques{
+    font-size: 2em;
+    text-align: start;
+    color: #fdba12;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    font-size: 1.5rem;
+}
+ul li label{
+    color: azure;
+    cursor: pointer;
+}
+#submit{
+    margin: 5%;
+    width: 25%;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 20px;
+    border: 0px;
+    background-color:#fdb500 ;
+    color: #3c1053;
+    transition: 0.5s;
+    font-weight: 700;
+}
+#submit:hover{
+    background-color: #3c1053;
+    color: #fdb500;
+}
+#head2{
+    color: #fdb500;
+    font-size: 2rem;
+}
+#btn{
+    margin: 5%;
+    width: 25%;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 20px;
+    border: 0px;
+    background-color:#fdb500 ;
+    color: #3c1053;
+    transition: 0.5s;
+    font-weight: 700;
+}
+#btn:hover{
+    background-color: #3c1053;
+    color: #fdb500;
+}
